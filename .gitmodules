@@ -1,3 +1,9 @@
 [submodule "UC1_Crop_Monitoring"]
 	path = UC1_Crop_Monitoring
 	url = https://github.com/ICAERUS-EU/UC1_Crop_Monitoring.git
+[submodule "UC4_Forestry_and_Biodiversity"]
+	path = UC4_Forestry_and_Biodiversity
+	url = https://github.com/ICAERUS-EU/UC4_Forestry_and_Biodiversity.git
+[submodule "UC3_Livestock_Monitoring"]
+	path = UC3_Livestock_Monitoring
+	url = https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring.git
