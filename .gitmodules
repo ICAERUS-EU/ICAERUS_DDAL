@@ -1,0 +1,3 @@
+[submodule "UC1_Crop_Monitoring"]
+	path = UC1_Crop_Monitoring
+	url = https://github.com/ICAERUS-EU/UC1_Crop_Monitoring.git
