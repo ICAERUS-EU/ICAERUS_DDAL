@@ -64,5 +64,37 @@
                 "Spain"
             ]
         }
-    }
+    },
+    {
+  "title":"uavgeo",
+  "creator": "Jurrian Doornbos",
+  "date": "26/1/2024",
+  "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg",
+  "url": "https://github.com/ICAERUS-EU/uavgeo",
+  "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+  "uses_cases":[1],
+  "extra":{
+      "usage/description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM."
+  },
+  "filters":{
+      "content": [
+          "Vegetation Index",
+          "Orthomosaic processing toolbox"
+          ],  
+      "data-type": [
+          "Multispectral images",
+          "Orthomosaic"
+      ], 
+
+      "subject": [
+          "Vineyards",
+          "Drone spraying",
+          "Forestry"
+      ],
+
+      "location": [
+          "Global"
+          ]
+        }
+}
 ]
