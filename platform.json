@@ -65,6 +65,42 @@
             ]
         }
     },
+
+    {
+        "title": "Cow Detection Model",
+        "creator": "Louise Helary",
+        "date": "06/03/2024",
+        "icon": "",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/Models",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection",
+                "Livestock"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Livestock"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    
     {
   "title":"uavgeo",
   "creator": "Jurrian Doornbos",
