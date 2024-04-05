@@ -1,0 +1,121 @@
+[{
+  "title":"p2p_ros",
+  "creator": "Jurrian Doornbos",
+  "date": "10/11/2023",
+  "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+  "url": "https://github.com/jurriandoornbos/p2p_ros",
+  "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+  "uses_cases":[1],
+  "extra":{
+      "usage/description": "ROS Pix2Pix node, for image conversion using Pix2Pix inside the ROS ecosystem. Adapted from the original junyanz Pix2Pix repository."
+  },
+  "filters":{
+      "content": [
+          "ROS",
+          "Deep Learning"
+          ],  
+      "data-type": [
+          "RGB Images",
+      ], 
+
+      "subject": [
+      ],
+
+      "location": [
+          "Global"
+          ]
+        }
+    },
+  {
+  "title":"Botrytis bunch rot mapping Canyelles",
+  "creator": "Jurrian Doornbos",
+  "date": "26/1/2024",
+  "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+  "url": "https://github.com/jurriandoornbos/BBR_canyelles",
+  "icaerus_applications": ["crop-monitoring"],
+  "uses_cases":[1],
+  "extra":{
+      "usage/description": "Mapping Botrytis Bunch Rot in Canyelles vineyard using implementation from Ariza et al. (2023)."
+  },
+  "filters":{
+      "content": [
+          "Vegetation Index",
+          "Disease mapping"
+          ],  
+      "data-type": [
+          "Multispectral images",
+          "Orthomosaic"
+      ], 
+
+      "subject": [
+          "Vineyards",
+      ],
+
+      "location": [
+          "Global"
+          ]
+        }
+    },
+  {
+  "title":"RGBtoNDVIconversion",
+  "creator": "Jurrian Doornbos",
+  "date": "17/3/2024",
+  "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+  "url": "https://github.com/jurriandoornbos/RGBtoNDVIconversion",
+  "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+  "uses_cases":[1],
+  "extra":{
+      "usage/description": "Using Deep Learning to convert RGB to NDVI images in vineyard orthomosaics."
+  },
+  "filters":{
+      "content": [
+          "Vegetation Index",
+          "Orthomosaic processing toolbox"
+          ],  
+      "data-type": [
+          "Multispectral images",
+          "Orthomosaic"
+      ], 
+
+      "subject": [
+          "Vineyards",
+          "Drone spraying",
+          "Forestry"
+      ],
+
+      "location": [
+          "Global"
+          ]
+        }
+    },
+  {
+  "title":"cowtization",
+  "creator": "Jurrian Doornbos, Douwe Spaanderman",
+  "date": "2/4/2024",
+  "icon":"https://github.com/jurriandoornbos/post_cowtization/blob/main/imgs/cowtization.png?raw=true",
+  "icaerus_applications": ["livestock-monitoring"],
+  "uses_cases":[3],
+  "extra":{
+      "usage/description": "Code for ICAERUS blogpost on Deep Learning quantization using a trained cow detection model."
+  },
+  "filters":{
+    "content": [
+        "Deep learning",
+        "Computer vision",
+        "Detection",
+        "Livestock"
+    ],
+    "data-type": [
+        "RGB images"
+    ],
+    "subject": [
+        "Livestock"
+    ],
+    "location": [
+        "France"
+    ]
+        }
+}
+
+  
+]
