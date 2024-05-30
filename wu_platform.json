@@ -93,6 +93,7 @@
   "creator": "Jurrian Doornbos, Douwe Spaanderman",
   "date": "2/4/2024",
   "icon":"https://github.com/jurriandoornbos/post_cowtization/blob/main/imgs/cowtization.png?raw=true",
+  "url":"https://github.com/jurriandoornbos/post_cowtization" 
   "icaerus_applications": ["livestock-monitoring"],
   "uses_cases":[3],
   "extra":{
