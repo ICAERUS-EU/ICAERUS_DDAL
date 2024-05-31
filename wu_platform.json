@@ -123,7 +123,7 @@
   "date": "05/06/2023",
   "icon":"https://github.com/jurriandoornbos/blob/main/images/crop_weed_icon.jpg?raw=true",
   "url": "https://github.com/jurriandoornbos/crop-weed-detection-yolov7",
-  "icaerus_applications": ["crop-monitoring",],
+  "icaerus_applications": ["crop-monitoring"],
   "uses_cases":[1],
   "extra":{
       "usage/description": "Evaluating Pretraining effects of MEGAWEEDS vs standard COCO in Precision Agricultural activities."
