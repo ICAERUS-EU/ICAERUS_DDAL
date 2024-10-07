@@ -3,7 +3,7 @@
     "title":"AgroTwin",
     "creator": "Agrobit srl",
     "date": "21/06/2024",
-    "icon":"https://github.com/ICAERUS-EU/AgroTwin/blob/main/docs/images/Extracted_portion.png",
+    "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AgroTwin/refs/heads/main/docs/images/Extracted_portion.png",
     "url":"https://github.com/ICAERUS-EU/AgroTwin",
     "icaerus_applications": ["crop-monitoring", "crop-spraying"],
     "uses_cases":[1],
