@@ -71,74 +71,109 @@
     },
 
     {
-    "title": "Plant locator from row-view to global-view -> grid",
-    "creator": "Esther Vera",
-    "date": "12/02/2024",
-    "icon": "https://github.com/user-attachments/assets/5d6a953b-b82b-4b3d-8b7b-e5b7ec3c204d",
-    "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/02_plant_locator_v2",
-    "icaerus_applications": [
-        "crop-monitoring"
-    ],
-    "uses_cases": [
-        "1"
-    ],
-    "extra": {
-        "key1": "",
-        "key2": ""
-    },
-    "filters": {
-        "content": [
-            "Deep learning",
-            "Computer vision",
-            "Detection",
-            "Location",
-            "Analysis",
-            "Identification", 
-            "Grid", 
-            "Orthomosaic"
+        "title": "Plant locator from row-view to global-view -> grid",
+        "creator": "Esther Vera",
+        "date": "12/02/2024",
+        "icon": "https://github.com/user-attachments/assets/5d6a953b-b82b-4b3d-8b7b-e5b7ec3c204d",
+        "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/02_plant_locator_v2",
+        "icaerus_applications": [
+            "crop-monitoring"
         ],
-        "data-type": [
-            "RGB images"
+        "uses_cases": [
+            "1"
         ],
-        "subject": [
-            "Vineyards"
-        ],
-        "location": [
-            "Spain"
-        ]
-    }
-},    
-{
-  "title":"uavgeo",
-  "creator": "Jurrian Doornbos",
-  "date": "26/1/2024",
-  "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
-  "url": "https://github.com/ICAERUS-EU/uavgeo",
-  "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
-  "uses_cases":[1],
-  "extra":{
-      "usage/description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM."
-  },
-  "filters":{
-      "content": [
-          "Vegetation Index",
-          "Orthomosaic processing toolbox"
-          ],  
-      "data-type": [
-          "Multispectral images",
-          "Orthomosaic"
-      ], 
-
-      "subject": [
-          "Vineyards",
-          "Drone spraying",
-          "Forestry"
-      ],
-
-      "location": [
-          "Global"
-          ]
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection",
+                "Location",
+                "Analysis",
+                "Identification", 
+                "Grid", 
+                "Orthomosaic"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Vineyards"
+            ],
+            "location": [
+                "Spain"
+            ]
         }
+    },    
+    {
+        "title": "Plant leaves analysis",
+        "creator": "Esther Vera",
+        "date": "17/10/2024",
+        "icon": "https://github.com/user-attachments/assets/34685e3d-be21-420c-aaf7-cc2988b2d3dd",
+        "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/03_plant_leaves_analysis_v1",
+        "icaerus_applications": [
+            "crop-monitoring"
+        ],
+        "uses_cases": [
+            "1"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Computer vision",
+                "Clusterization",
+                "Analysis",
+                "VARI",
+                "KMeans"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Vineyards leaves"
+            ],
+            "location": [
+                "Spain"
+            ]
+        }
+  },
+  {
+      "title":"uavgeo",
+      "creator": "Jurrian Doornbos",
+      "date": "26/1/2024",
+      "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+      "url": "https://github.com/ICAERUS-EU/uavgeo",
+      "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+      "uses_cases":[1],
+      "extra":{
+          "usage/description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM."
+      },
+      "filters":{
+          "content": [
+              "Vegetation Index",
+              "Orthomosaic processing toolbox"
+              ],  
+          "data-type": [
+              "Multispectral images",
+              "Orthomosaic"
+          ], 
+    
+          "subject": [
+              "Vineyards",
+              "Drone spraying",
+              "Forestry"
+          ],
+    
+          "location": [
+              "Global"
+              ]
+            }
     },
     {
         "title": "Cow detection model v1",
