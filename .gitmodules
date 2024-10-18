@@ -7,3 +7,6 @@
 [submodule "UC3_Livestock_Monitoring"]
 	path = UC3_Livestock_Monitoring
 	url = https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring.git
+[submodule "UC5"]
+	path = UC5
+	url = https://github.com/ICAERUS-EU/UC5.git
