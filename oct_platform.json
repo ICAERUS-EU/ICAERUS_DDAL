@@ -6,7 +6,7 @@
     "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AgroTwin/refs/heads/main/docs/images/Extracted_portion.png",
     "url":"https://github.com/ICAERUS-EU/AgroTwin",
     "icaerus_applications": ["crop-monitoring", "crop-spraying"],
-    "uses_cases":[1],
+    "uses_cases":["OCT"],
     "extra":{
         "usage/description": "A UAV-specific Python image processing library built upon scipy for a comprehensive analysis of vineyard point clouds to extract relevant features, and calculating descriptors such as canopy density, height, thickness, and optimal volume rate for spraying."
     },
