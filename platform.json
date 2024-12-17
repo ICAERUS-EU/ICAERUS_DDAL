@@ -150,7 +150,7 @@
       "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
       "url": "https://github.com/ICAERUS-EU/uavgeo",
       "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
-      "uses_cases":[1],
+      "uses_cases":["1"],
       "extra":{
           "usage/description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM."
       },
@@ -180,7 +180,7 @@
         "creator": "Louise Helary",
         "date": "06/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/e49eead8-32ee-46da-9b04-e10a8585c974",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/Models/01_cow_detection_v1",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/01_cow_detection_v1",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
@@ -213,7 +213,7 @@
         "creator": "Louise Helary",
         "date": "25/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/e49eead8-32ee-46da-9b04-e10a8585c974",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/Models/01_cow_detection_v2",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/01_cow_detection_v2",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
@@ -246,7 +246,7 @@
         "creator": "Louise Helary",
         "date": "25/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/Models/02_sheep_detection_v1",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/02_sheep_detection_v1",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
@@ -279,7 +279,7 @@
         "creator": "Louise Helary",
         "date": "25/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/Models/02_sheep_detection_v2",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/02_sheep_detection_v2",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
@@ -312,7 +312,7 @@
         "creator": "Louise Helary",
         "date": "25/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/51c1bb78-1716-4bf3-bcc3-dce32a0c2810",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/Models/03_sheep_counter_line",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/application/sheep_counting",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
@@ -343,11 +343,44 @@
         }
     },
     {
+        "title": "Wild Boar Detection and Counting Models Using YOLOv5",
+        "creator": "ART21",
+        "date": "2024/12/12",
+        "icon": "",
+        "url": "https://github.com/ICAERUS-EU/UC4_Forestry_and_Biodiversity/tree/main/models/01_boar_detector_v1",
+        "icaerus_applications": [
+            "biodiversity monitoring"
+        ],
+        "uses_cases": [
+            "4"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "Thermal images with white-hot color pallete"
+            ],
+            "subject": [
+                "Wild Boars in Forests and Fields"
+            ],
+            "location": [
+                "Lithuania"
+            ]
+        }
+    },
+    {
         "title": "Math_Combinatorics",
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/math_combinations.png",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/03_MM_combinations_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
@@ -380,7 +413,7 @@
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/vrp_pickup_delivery_solution.svg",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_cvrp_pickup_delivery_distance",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/04_cvrp_pickup_delivery_distance_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
@@ -414,7 +447,7 @@
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/genetic_algorithm.png",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_genetic_algorithm",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/05_MM_genetic_algorithm_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
@@ -447,7 +480,7 @@
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/ant_colony.svg",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/01_MM_ant_colony_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
@@ -480,7 +513,7 @@
         "creator": "FrickTobias, luanleonardo",
         "date": "03/10/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/traveling-salesman-problem.png",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-tsp",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/02_MM_tsp_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
