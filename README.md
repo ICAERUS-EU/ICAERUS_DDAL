@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/icaerus-eu/ddal">
-    <img src="https://icaerus.eu/wp-content/uploads/2022/09/ICAERUS-logo-white.svg" alt="Logo" width="40%">
+    <img src="https://raw.githubusercontent.com/ICAERUS-EU/.github/refs/heads/main/profile/ICAERUS_transparent.png" alt="Logo" width="40%">
   </a>
 
   <h3 align="center">Drone Data Analytics Library 🔎</h3>
