@@ -10,7 +10,6 @@
 	path = UC3_Livestock_Monitoring
 	url = https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring.git
 	branch = main
-[submodule "UC5"]
-	path = UC5
-	url = https://github.com/ICAERUS-EU/UC5.git
-	branch = main
+[submodule "UC5_Rural_Logistics"]
+	path = UC5_Rural_Logistics
+	url = https://github.com/ICAERUS-EU/UC5_Rural_Logistics.git
