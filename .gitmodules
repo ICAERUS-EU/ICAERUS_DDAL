@@ -13,3 +13,6 @@
 [submodule "UC5_Rural_Logistics"]
 	path = UC5_Rural_Logistics
 	url = https://github.com/ICAERUS-EU/UC5_Rural_Logistics.git
+[submodule "UC2_Drone_Spraying"]
+	path = UC2_Drone_Spraying
+	url = git@github.com:ICAERUS-EU/UC2_Drone_Spraying.git
