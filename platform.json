@@ -511,7 +511,7 @@
     {
         "title": "Python TSP Solver",
         "creator": "FrickTobias, luanleonardo",
-        "date": "03/10/2024",
+        "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/traveling-salesman-problem.png",
         "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/02_MM_tsp_v1",
         "icaerus_applications": [
