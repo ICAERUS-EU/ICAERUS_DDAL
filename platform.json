@@ -144,6 +144,41 @@
         }
   },
   {
+    "title": "Drone simulation with ROS2 and Sphinx in a vineyard model",
+    "creator": "Esther Vera",
+    "date": "14/01/2025",
+    "icon": "https://github.com/user-attachments/assets/dc4cdf4b-6fd8-4c92-9c87-0053435706af",
+    "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/04_drone_simulation_v1",
+    "icaerus_applications": [
+        "crop-monitoring"
+    ],
+    "uses_cases": [
+        "1"
+    ],
+    "extra": {
+        "key1": "",
+        "key2": ""
+    },
+    "filters": {
+        "content": [
+            "Computer vision",
+            "ROS2",
+            "Sphinx",
+            "Simulation",
+            "3D model"
+        ],
+        "data-type": [
+            "RGB images"
+        ],
+        "subject": [
+            "Drone simulation"
+        ],
+        "location": [
+            "Spain"
+        ]
+     }
+  },
+  {
       "title":"uavgeo",
       "creator": "Jurrian Doornbos",
       "date": "26/1/2024",
