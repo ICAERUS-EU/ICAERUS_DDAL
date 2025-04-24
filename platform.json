@@ -575,5 +575,38 @@
                 "North Macedonia"
             ]
         }
+    },
+    {
+        "title": "DeaDaLuS Decision Support System",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
+        "date": "10/02/2025",
+        "icon": "https://daedalus.geosenseapps.com/models/images/daedalus_DSS_logo.png",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/06_DSS_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "TSP Solver"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
     }
 ]
