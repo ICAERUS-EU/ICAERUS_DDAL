@@ -158,5 +158,42 @@
                 "Global"
             ]
         }
+    },
+    {
+        "title": "Multispectral UAV Image calibration and alignment",
+        "creator": "Jurrian Doornbos",
+        "date": "2025-03-06",
+        "icon": "https://github.com/jurriandoornbos/msdata/blob/main/msdata.png",
+        "url": "https://github.com/jurriandoornbos/msdata",
+        "icaerus_applications": [
+            "image alignment",
+            "radiometric calibration",
+            "multispectral preprocessing"
+        ],
+        "uses_cases": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "extra": {
+            "usage/description": "Python-based calibration procedures for DJI Mavic 3M, DJI Phantom 4 Multispectral, MicaSense Altum (-pt), RedEdge and Parrot Sequoia. This repository serves as a starting point to work with raw images from multispectral sensors."
+        },
+        "filters": {
+            "content": [
+                "image processing",
+                "calibration",
+                "alignment"
+            ],
+            "data-type": [
+                "multispectral imagery"
+            ],
+            "subject": [
+                "multispectral imagery"
+            ],
+            "location": [
+                "Global"
+            ]
+        }
     }
 ]
