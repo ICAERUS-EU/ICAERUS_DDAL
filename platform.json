@@ -11,17 +11,14 @@
         "uses_cases": [
             "1"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Plant disease detection model using YOLOv8 for vineyard crop monitoring applications.",
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -29,7 +26,9 @@
             ],
             "location": [
                 "Spain"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Disease detection", "Object detection"]
         }
     },
     {
@@ -44,10 +43,7 @@
         "uses_cases": [
             "1"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Plant locator system that transforms row-view detections to global coordinates in vineyard monitoring.",
         "filters": {
             "content": [
                 "Deep learning",
@@ -58,7 +54,7 @@
                 "Identification", 
                 "Orthomosaic"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -66,10 +62,11 @@
             ],
             "location": [
                 "Spain"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Plant location", "Global coordinates"]
         }
     },
-
     {
         "title": "Plant locator from row-view to global-view -> grid",
         "creator": "Esther Vera",
@@ -82,10 +79,7 @@
         "uses_cases": [
             "1"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Enhanced plant locator system with grid-based mapping for improved vineyard plant positioning.",
         "filters": {
             "content": [
                 "Deep learning",
@@ -97,7 +91,7 @@
                 "Grid", 
                 "Orthomosaic"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -105,7 +99,9 @@
             ],
             "location": [
                 "Spain"
-            ]
+            ],
+            "model_input": ["Plant location"],
+            "model_output": ["Grid location"]
         }
     },    
     {
@@ -120,10 +116,7 @@
         "uses_cases": [
             "1"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Plant leaves analysis system using computer vision and clustering techniques for vineyard health assessment.",
         "filters": {
             "content": [
                 "Computer vision",
@@ -132,7 +125,7 @@
                 "VARI",
                 "KMeans"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -140,74 +133,73 @@
             ],
             "location": [
                 "Spain"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Clusters"]
         }
-  },
-  {
-    "title": "Drone simulation with ROS2 and Sphinx in a vineyard model",
-    "creator": "Esther Vera",
-    "date": "14/01/2025",
-    "icon": "https://github.com/user-attachments/assets/dc4cdf4b-6fd8-4c92-9c87-0053435706af",
-    "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/04_drone_simulation_v1",
-    "icaerus_applications": [
-        "crop-monitoring"
-    ],
-    "uses_cases": [
-        "1"
-    ],
-    "extra": {
-        "key1": "",
-        "key2": ""
     },
-    "filters": {
-        "content": [
-            "Computer vision",
-            "ROS2",
-            "Sphinx",
-            "Simulation",
-            "3D model"
+    {
+        "title": "Drone simulation with ROS2 and Sphinx in a vineyard model",
+        "creator": "Esther Vera",
+        "date": "14/01/2025",
+        "icon": "https://github.com/user-attachments/assets/dc4cdf4b-6fd8-4c92-9c87-0053435706af",
+        "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/04_drone_simulation_v1",
+        "icaerus_applications": [
+            "crop-monitoring"
         ],
-        "data-type": [
-            "RGB images"
+        "uses_cases": [
+            "1"
         ],
-        "subject": [
-            "Drone simulation"
-        ],
-        "location": [
-            "Spain"
-        ]
-     }
-  },
-  {
-      "title":"uavgeo",
-      "creator": "Jurrian Doornbos",
-      "date": "26/1/2024",
-      "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
-      "url": "https://github.com/ICAERUS-EU/uavgeo",
-      "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
-      "uses_cases":["1"],
-      "extra":{
-          "usage/description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM."
-      },
-      "filters":{
-          "content": [
-              "Vegetation Index",
-              "Orthomosaic processing toolbox"
-              ],  
-          "data-type": [
-              "Multispectral images",
-              "Orthomosaic"
-          ], 
-    
-          "subject": [
-              "Vineyards",
-              "Drone spraying",
-              "Forestry"
-          ],
-    
-          "location": [
-              "Global"
-              ]
+        "description": "Drone simulation environment using ROS2 and Sphinx for vineyard monitoring applications.",
+        "filters": {
+            "content": [
+                "Computer vision",
+                "ROS2",
+                "Sphinx",
+                "Simulation",
+                "3D model"
+            ],
+            "data_type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Drone simulation"
+            ],
+            "location": [
+                "Spain"
+            ],
+            "model_input": ["3D model", "Simulation data"],
+            "model_output": ["Simulation results", "Flight data"]
+        }
+    },
+    {
+        "title":"uavgeo",
+        "creator": "Jurrian Doornbos",
+        "date": "26/1/2024",
+        "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+        "url": "https://github.com/ICAERUS-EU/uavgeo",
+        "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+        "uses_cases":["1"],
+        "description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as automated leaf-shadow classification and DEM creation from a DSM.",
+        "filters":{
+            "content": [
+                "Vegetation Index",
+                "Orthomosaic processing toolbox"
+                ],  
+            "data_type": [
+                "Multispectral images",
+                "Orthomosaic"
+            ], 
+            "subject": [
+                "Vineyards",
+                "Drone spraying",
+                "Forestry"
+            ],
+            "location": [
+                "Global"
+                ],
+            "model_input": ["Orthomosaic"],
+            "model_output": ["DTM", "CHM", "Spectral Index", "DEM"]
             }
     },
     {
@@ -222,17 +214,14 @@
         "uses_cases": [
             "3"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Deep learning model for cow detection in livestock monitoring applications using computer vision techniques.",
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -240,7 +229,9 @@
             ],
             "location": [
                 "France"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Cow detection", "Object detection"]
         }
     },
     {
@@ -255,17 +246,14 @@
         "uses_cases": [
             "3"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Enhanced version of the cow detection model with improved accuracy for livestock monitoring.",
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -273,7 +261,9 @@
             ],
             "location": [
                 "France"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Cow detection", "Object detection"]
         }
     },
     {
@@ -288,17 +278,14 @@
         "uses_cases": [
             "3"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Deep learning model for sheep detection in livestock monitoring applications.",
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -306,7 +293,9 @@
             ],
             "location": [
                 "France"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Sheep detection", "Object detection"]
         }
     },
     {
@@ -321,17 +310,14 @@
         "uses_cases": [
             "3"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Enhanced version of the sheep detection model with improved performance for livestock monitoring.",
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -339,7 +325,9 @@
             ],
             "location": [
                 "France"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Sheep detection", "Object detection"]
         }
     },
     {
@@ -354,10 +342,7 @@
         "uses_cases": [
             "3"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Sheep counting application that tracks and counts sheep crossing a designated line using computer vision.",
         "filters": {
             "content": [
                 "Deep learning",
@@ -366,7 +351,7 @@
                 "Tracking",
                 "Counting"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -374,7 +359,9 @@
             ],
             "location": [
                 "France"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Sheep count"]
         }
     },
     {
@@ -389,17 +376,14 @@
         "uses_cases": [
             "4"
         ],
-        "extra": {
-            "key1": "",
-            "key2": ""
-        },
+        "description": "Wild boar detection and counting models using YOLOv5 for biodiversity monitoring in forests and fields.",
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data-type": [
+            "data_type": [
                 "Thermal images with white-hot color pallete"
             ],
             "subject": [
@@ -407,7 +391,9 @@
             ],
             "location": [
                 "Lithuania"
-            ]
+            ],
+            "model_input": ["Thermal images"],
+            "model_output": ["Wild boar detection"]
         }
     },
     {
@@ -420,18 +406,16 @@
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
         "uses_cases": [
-            5
+            "5"
         ],
-        "extra": {
-            "description": "Provides functionality to find all combinations and permutations given a set and subset size."
-        },
+        "description": "Provides functionality to find all combinations and permutations given a set and subset size.",
         "filters": {
             "content": [
                 "Simulations",
                 "Path planning",
                 "Framework"
             ],
-            "data-type": [
+            "data_type": [
                 "N/A"
             ],
             "subject": [
@@ -440,7 +424,9 @@
             "location": [
                 "Greece",
                 "North Macedonia"                
-            ]
+            ],
+            "model_input": [],
+            "model_output": []
         }
     },
     {
@@ -453,11 +439,9 @@
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
         "uses_cases": [
-            5
+            "5"
         ],
-        "extra": {
-            "description": "Solution to the Vehicle Routing Problem with Pickups and Deliveries (VRPPD) using Google OR-Tools."
-        },
+        "description": "Solution to the Vehicle Routing Problem with Pickups and Deliveries (VRPPD) using Google OR-Tools.",
         "filters": {
             "content": [
                 "Simulations",
@@ -465,7 +449,7 @@
                 "Networking",
                 "Flight control"
             ],
-            "data-type": [
+            "data_type": [
                 "N/A"
             ],
             "subject": [
@@ -474,7 +458,9 @@
             "location": [
                 "Greece",
                 "North Macedonia"
-            ]
+            ],
+            "model_input": [],
+            "model_output": []
         }
     },
     {
@@ -487,18 +473,16 @@
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
         "uses_cases": [
-            5
+            "5"
         ],
-        "extra": {
-            "description": "Solves the Traveling Salesman Problem (TSP) using a Genetic Algorithm (GA)."
-        },
+        "description": "Solves the Traveling Salesman Problem (TSP) using a Genetic Algorithm (GA).",
         "filters": {
             "content": [
                 "Simulations",
                 "Path planning",
                 "Genetic Algorithms"
             ],
-            "data-type": [
+            "data_type": [
                 "N/A"
             ],
             "subject": [
@@ -507,7 +491,9 @@
             "location": [
                 "Greece",
                 "North Macedonia"
-            ]
+            ],
+            "model_input": [],
+            "model_output": []
         }
     },
     {
@@ -520,18 +506,16 @@
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
         "uses_cases": [
-            5
+            "5"
         ],
-        "extra": {
-            "description": "Solves optimization problems using Ant Colony Optimization (ACO) algorithm."
-        },
+        "description": "Solves optimization problems using Ant Colony Optimization (ACO) algorithm.",
         "filters": {
             "content": [
                 "Simulations",
                 "Path planning",
                 "Ant Colony Optimization"
             ],
-            "data-type": [
+            "data_type": [
                 "N/A"
             ],
             "subject": [
@@ -540,7 +524,9 @@
             "location": [
                 "Greece",
                 "North Macedonia"
-            ]
+            ],
+            "model_input": [],
+            "model_output": []
         }
     },
     {
@@ -553,18 +539,16 @@
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
         "uses_cases": [
-            5
+            "5"
         ],
-        "extra": {
-            "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search."
-        },
+        "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search.",
         "filters": {
             "content": [
                 "Simulations",
                 "Path planning",
                 "TSP Solver"
             ],
-            "data-type": [
+            "data_type": [
                 "N/A"
             ],
             "subject": [
@@ -573,7 +557,9 @@
             "location": [
                 "Greece",
                 "North Macedonia"
-            ]
+            ],
+            "model_input": [],
+            "model_output": []
         }
     },
     {
@@ -586,18 +572,17 @@
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
         "uses_cases": [
-            5
+            "5"
         ],
-        "extra": {
-            "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search."
-        },
+        "description": "Decision Support System for the DaeDaLuS drone delivery logistics platform, providing comprehensive routing and delivery optimization.",
         "filters": {
             "content": [
                 "Simulations",
                 "Path planning",
-                "TSP Solver"
+                "Decision support",
+                "Framework"
             ],
-            "data-type": [
+            "data_type": [
                 "N/A"
             ],
             "subject": [
@@ -606,7 +591,9 @@
             "location": [
                 "Greece",
                 "North Macedonia"
-            ]
+            ],
+            "model_input": [],
+            "model_output": []
         }
     }
 ]

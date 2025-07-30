@@ -1,194 +1,193 @@
 [
-  {
-    "title":"AgroTwin",
-    "creator": "Agrobit srl",
-    "date": "21/06/2024",
-    "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AgroTwin/refs/heads/main/docs/images/Extracted_portion.png",
-    "url":"https://github.com/ICAERUS-EU/AgroTwin",
-    "icaerus_applications": ["crop-monitoring", "crop-spraying"],
-    "uses_cases":["OCT"],
-    "extra":{
-        "usage/description": "A UAV-specific Python image processing library built upon scipy for a comprehensive analysis of vineyard point clouds to extract relevant features, and calculating descriptors such as canopy density, height, thickness, and optimal volume rate for spraying."
+    {
+      "title":"AgroTwin",
+      "creator": "Agrobit srl",
+      "date": "21/06/2024",
+      "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AgroTwin/refs/heads/main/docs/images/Extracted_portion.png",
+      "url":"https://github.com/ICAERUS-EU/AgroTwin",
+      "icaerus_applications": ["crop-monitoring", "crop-spraying"],
+      "uses_cases":["OCT"],
+      "description": "A UAV-specific Python image processing library built upon scipy for a comprehensive analysis of vineyard point clouds to extract relevant features, and calculating descriptors such as canopy density, height, thickness, and optimal volume rate for spraying.",
+      "filters":{
+          "content": [
+              "Machine learning",
+              "Deep learning",
+              "Point cloud",
+              "VRT",
+              "Vigor",
+              "RGB",
+              "Framework",
+              "VLOS"
+          ],  
+          "data_type": [
+              "RGB images",
+              "Point cloud",
+              "csv"
+          ], 
+          "subject": [
+              "Vineyards"
+          ],
+          "location": [
+              "Italy"
+          ],
+          "model_input": ["Point cloud", "RGB images"],
+          "model_output": ["VRT", "Canopy density", "Height", "Thickness", "Volume rate"]
+       }
     },
-    "filters":{
-        "content": [
-            "Machine learning",
-            "Deep learning",
-            "Point cloud",
-            "VRT",
-            "Vigor",
-            "RGB",
-            "Framework",
-            "VLOS"
-        ],  
-        "data-type": [
-            "RGB images",
-            "Point cloud",
-            "csv"
-        ], 
-        "subject": [
-            "Vineyards"
-        ],
-        "location": [
-            "Italy"
-        ] 
-     }
-  },
-  {  
-    "title":"Xylella Fastidiosa Classification",
-    "creator": "TAAL",
-    "date": "01/08/2024",
-    "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
-    "url": "https://github.com/ICAERUS-EU/Xylella-Fastidiosa-Classification",
-    "icaerus_applications": ["crop-monitoring"],
-    "uses_cases":["OCT"],
-    "extra":{
-        "usage/description": "Training and validation of a classifier for Xylella Fastidiosa in olive trees."
+    {  
+      "title":"Xylella Fastidiosa Classification",
+      "creator": "TAAL",
+      "date": "01/08/2024",
+      "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
+      "url": "https://github.com/ICAERUS-EU/Xylella-Fastidiosa-Classification",
+      "icaerus_applications": ["crop-monitoring"],
+      "uses_cases":["OCT"],
+      "description": "Training and validation of a classifier for Xylella Fastidiosa in olive trees.",
+      "filters":{
+          "content": [
+              "Vegetation Index",
+              "Orthomosaic processing toolbox"
+              ],  
+          "data_type": [
+              "Multispectral images",
+              "RGB images",
+              "Orthomosaic"
+          ], 
+          "subject": [
+              "Disease detection",
+              "Olive groves"
+          ],
+          "location": [
+              "Italy"
+          ],
+          "model_input": ["RGB images"],
+          "model_output": ["Classification", "Disease status"]
+       }
     },
-    "filters":{
-        "content": [
-            "Vegetation Index",
-            "Orthomosaic processing toolbox"
-            ],  
-        "data-type": [
-            "Multispectral images",
-            "RGB images",
-            "Orthomosaic"
-        ], 
-        "subject": [
-            "Disease detection",
-            "Olive groves"
-        ],
-        "location": [
-            "Italy"
-        ]
-     }
-  },
-  {  
-    "title":"Full Pipeline Olive Tree Health Status Classification",
-    "creator": "TAAL",
-    "date": "01/08/2024",
-    "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
-    "url": "https://github.com/ICAERUS-EU/Full-Pipeline-Olive-Tree-Health-Status-Classification",
-    "icaerus_applications": ["crop-monitoring"],
-    "uses_cases":["OCT"],
-    "extra":{
-        "usage/description": "An image processing workflow designed to classify olive trees by combining data from NDVI (Normalized Difference Vegetation Index) and RGB images."
+    {  
+      "title":"Full Pipeline Olive Tree Health Status Classification",
+      "creator": "TAAL",
+      "date": "01/08/2024",
+      "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
+      "url": "https://github.com/ICAERUS-EU/Full-Pipeline-Olive-Tree-Health-Status-Classification",
+      "icaerus_applications": ["crop-monitoring"],
+      "uses_cases":["OCT"],
+      "description": "An image processing workflow designed to classify olive trees by combining data from NDVI (Normalized Difference Vegetation Index) and RGB images.",
+      "filters":{
+          "content": [
+              "Vegetation Index",
+              "Orthomosaic processing toolbox"
+          ],  
+          "data_type": [
+              "Multispectral images",
+              "RGB images",
+              "Orthomosaic"
+          ], 
+          "subject": [
+              "Disease detection",
+              "Olive groves"
+          ],
+          "location": [
+              "Italy"
+          ],
+          "model_input": ["NDVI", "RGB images"],
+          "model_output": ["Health status classification"]
+       }
     },
-    "filters":{
-        "content": [
-            "Vegetation Index",
-            "Orthomosaic processing toolbox"
-        ],  
-        "data-type": [
-            "Multispectral images",
-            "RGB images",
-            "Orthomosaic"
-        ], 
-        "subject": [
-            "Disease detection",
-            "Olive groves"
-        ],
-        "location": [
-            "Italy"
-        ]
-     }
-  },
-  {
-    "title":"Olive Tree Detection",
-    "creator": "TAAL",
-    "date": "1/8/2024",
-    "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
-    "url": "https://github.com/ICAERUS-EU/Olive-Tree-Detection",
-    "icaerus_applications": ["crop-monitoring"],
-    "uses_cases":["OCT"],
-    "extra":{
-        "usage/description": "Training and validation of a detection model for olive trees using YOLO"
+    {
+      "title":"Olive Tree Detection",
+      "creator": "TAAL",
+      "date": "1/8/2024",
+      "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
+      "url": "https://github.com/ICAERUS-EU/Olive-Tree-Detection",
+      "icaerus_applications": ["crop-monitoring"],
+      "uses_cases":["OCT"],
+      "description": "Training and validation of a detection model for olive trees using YOLO",
+      "filters":{
+          "content": [
+              "Vegetation Index",
+              "Orthomosaic processing toolbox"
+          ],  
+          "data_type": [
+              "Multispectral images",
+              "RGB images",
+              "Orthomosaic"
+          ], 
+          "subject": [
+              "Disease detection",
+              "Olive groves"
+          ],
+          "location": [
+              "Italy"
+          ],
+          "model_input": ["RGB images"],
+          "model_output": ["Tree detection", "Object detection"]
+       }
+    }, 
+    {
+      "title":"Vine Segmentation",
+      "creator": "Manisha Sirsat, iLaria Marengo",
+      "date": "06/01/2025",
+      "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AI4Leafhopper/refs/heads/main/vine_segmentation/images/17_results_NDVI_segmentation.jpg",
+      "url":"https://github.com/ICAERUS-EU/AI4Leafhopper/tree/main/vine_segmentation",
+      "icaerus_applications": ["crop-monitoring"],
+      "uses_cases":["1"],
+      "description":"The models are developed for the vine segmentation in the Vineyard.",
+      "filters":{
+          "content": [
+              "Machine learning",
+              "Deep learning",
+              "Computer vision",
+              "Detection",
+              "Vegetation Index",
+              "Early disease prediction"
+              ],  
+          "data_type": [
+              "RGB images",
+              "Multispectral images",
+              "Orthomosaic"
+          ], 
+          "subject": [
+              "Vineyards"
+          ],
+          "location": [
+              "Portugal"
+              ],
+          "model_input": ["RGB images", "Multispectral images", "NDVI"],
+          "model_output": ["Vine segmentation", "Segmentation masks"]
+       }
     },
-    "filters":{
-        "content": [
-            "Vegetation Index",
-            "Orthomosaic processing toolbox"
-        ],  
-        "data-type": [
-            "Multispectral images",
-            "RGB images",
-            "Orthomosaic"
-        ], 
-        "subject": [
-            "Disease detection",
-            "Olive groves"
-        ],
-        "location": [
-            "Italy"
-        ]
-     }
-  }, 
-  {
-    "title":"Vine Segmentation",
-    "creator": "Manisha Sirsat, iLaria Marengo",
-    "date": "06/01/2025",
-    "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AI4Leafhopper/refs/heads/main/vine_segmentation/images/17_results_NDVI_segmentation.jpg",
-    "url":"https://github.com/ICAERUS-EU/AI4Leafhopper/tree/main/vine_segmentation",
-    "icaerus_applications": ["crop-monitoring"],
-    "uses_cases":[1],
-    "extra":{
-        "usage/description":"The models are developed for the vine segmentation in the Vineyard."
-    },
-    "filters":{
-        "content": [
-            "Machine learning",
-            "Deep learning",
-            "Computer vision",
-            "Detection",
-            "Vegetation Index",
-            "Early disease prediction"
-            ],  
-        "data-type": [
-            "RGB images",
-            "Multispectral images",
-            "Orthomosaic"
-        ], 
-        "subject": [
-            "Vineyards"
-        ],
-        "location": [
-            "Portugal"
-            ]
-     }
-  },
-  {
-    "title":"Severity Prediction",
-    "creator": "Nuno Faria",
-    "date": "06/01/2025",
-    "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AI4Leafhopper/refs/heads/main/vine_segmentation/images/17_results_NDVI_segmentation.jpg",
-    "url":"https://github.com/ICAERUS-EU/AI4Leafhopper/tree/main/severity_prediction",
-    "icaerus_applications": ["crop-monitoring"],
-    "uses_cases":[1],
-    "extra":{
-        "usage/description":"The model is developed for the leafhopper disease severity prediction in the Vineyard."
-    },
-    "filters":{
-        "content": [
-            "Machine learning",
-            "Deep learning",
-            "Computer vision",
-            "Detection",
-            "Vegetation Index",
-            "Early disease prediction"
-            ],  
-        "data-type": [
-            "RGB images",
-            "Multispectral images",
-            "Orthomosaic"
-        ], 
-  
-        "subject": [
-            "Vineyards"
-        ],
-        "location": [
-            "Portugal"
-            ]
-      }
-   }     
-]
+    {
+      "title":"Severity Prediction",
+      "creator": "Nuno Faria",
+      "date": "06/01/2025",
+      "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AI4Leafhopper/refs/heads/main/vine_segmentation/images/17_results_NDVI_segmentation.jpg",
+      "url":"https://github.com/ICAERUS-EU/AI4Leafhopper/tree/main/severity_prediction",
+      "icaerus_applications": ["crop-monitoring"],
+      "uses_cases":["1"],
+      "description":"The model is developed for the leafhopper disease severity prediction in the Vineyard.",
+      "filters":{
+          "content": [
+              "Machine learning",
+              "Deep learning",
+              "Computer vision",
+              "Detection",
+              "Vegetation Index",
+              "Early disease prediction"
+              ],  
+          "data_type": [
+              "RGB images",
+              "Multispectral images",
+              "Orthomosaic"
+          ], 
+          "subject": [
+              "Vineyards"
+          ],
+          "location": [
+              "Portugal"
+              ],
+          "model_input": ["RGB images", "Multispectral images"],
+          "model_output": ["Disease severity", "Severity prediction"]
+        }
+     }     
+  ]

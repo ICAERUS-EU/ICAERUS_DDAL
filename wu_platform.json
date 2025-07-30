@@ -11,23 +11,23 @@
             "forestry-and-biodiversity"
         ],
         "uses_cases": [
-            1
+            "1"
         ],
-        "extra": {
-            "usage/description": "ROS Pix2Pix node, for image conversion using Pix2Pix inside the ROS ecosystem. Adapted from the original junyanz Pix2Pix repository."
-        },
+        "description": "ROS Pix2Pix node, for image conversion using Pix2Pix inside the ROS ecosystem. Adapted from the original junyanz Pix2Pix repository.",
         "filters": {
             "content": [
                 "ROS",
                 "Deep Learning"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB Images"
             ],
             "subject": [],
             "location": [
                 "Global"
-            ]
+            ],
+            "model_input": ["RGB Images"],
+            "model_output": ["NDVI images"]
         }
     },
     {
@@ -40,17 +40,15 @@
             "crop-monitoring"
         ],
         "uses_cases": [
-            1
+            "1"
         ],
-        "extra": {
-            "usage/description": "Mapping Botrytis Bunch Rot in Canyelles vineyard using implementation from Ariza et al. (2023)."
-        },
+        "description": "Mapping Botrytis Bunch Rot in Canyelles vineyard using implementation from Ariza et al. (2023).",
         "filters": {
             "content": [
                 "Vegetation Index",
                 "Disease mapping"
             ],
-            "data-type": [
+            "data_type": [
                 "Multispectral images",
                 "Orthomosaic"
             ],
@@ -59,7 +57,9 @@
             ],
             "location": [
                 "Global"
-            ]
+            ],
+            "model_input": ["Multispectral images", "Orthomosaic"],
+            "model_output": ["Disease map", "Disease detection"]
         }
     },
     {
@@ -74,17 +74,15 @@
             "forestry-and-biodiversity"
         ],
         "uses_cases": [
-            1
+            "1"
         ],
-        "extra": {
-            "usage/description": "Using Deep Learning to convert RGB to NDVI images in vineyard orthomosaics."
-        },
+        "description": "Using Deep Learning to convert RGB to NDVI images in vineyard orthomosaics.",
         "filters": {
             "content": [
                 "Vegetation Index",
                 "Orthomosaic processing toolbox"
             ],
-            "data-type": [
+            "data_type": [
                 "Multispectral images",
                 "Orthomosaic"
             ],
@@ -95,7 +93,9 @@
             ],
             "location": [
                 "Global"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["NDVI", "Spectral Index"]
         }
     },
     {
@@ -108,11 +108,9 @@
             "livestock-monitoring"
         ],
         "uses_cases": [
-            3
+            "3"
         ],
-        "extra": {
-            "usage/description": "Code for ICAERUS blogpost on Deep Learning quantization using a trained cow detection model."
-        },
+        "description": "Code for ICAERUS blogpost on Deep Learning quantization using a trained cow detection model.",
         "filters": {
             "content": [
                 "Deep learning",
@@ -120,7 +118,7 @@
                 "Detection",
                 "Livestock"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB images"
             ],
             "subject": [
@@ -128,7 +126,9 @@
             ],
             "location": [
                 "France"
-            ]
+            ],
+            "model_input": ["RGB images"],
+            "model_output": ["Cow detection", "Object detection"]
         }
     },
     {
@@ -141,22 +141,22 @@
             "crop-monitoring"
         ],
         "uses_cases": [
-            1
+            "1"
         ],
-        "extra": {
-            "usage/description": "Evaluating Pretraining effects of MEGAWEEDS vs standard COCO in Precision Agricultural activities."
-        },
+        "description": "Evaluating Pretraining effects of MEGAWEEDS vs standard COCO in Precision Agricultural activities.",
         "filters": {
             "content": [
                 "Deep Learning"
             ],
-            "data-type": [
+            "data_type": [
                 "RGB Images"
             ],
             "subject": [],
             "location": [
                 "Global"
-            ]
+            ],
+            "model_input": ["RGB Images"],
+            "model_output": ["Weed detection", "Detection"]
         }
     },
     {
@@ -171,21 +171,19 @@
             "multispectral preprocessing"
         ],
         "uses_cases": [
-            1,
-            2,
-            3,
-            4
+            "1",
+            "2",
+            "3",
+            "4"
         ],
-        "extra": {
-            "usage/description": "Python-based calibration procedures for DJI Mavic 3M, DJI Phantom 4 Multispectral, MicaSense Altum (-pt), RedEdge and Parrot Sequoia. This repository serves as a starting point to work with raw images from multispectral sensors."
-        },
+        "description": "Python-based calibration procedures for DJI Mavic 3M, DJI Phantom 4 Multispectral, MicaSense Altum (-pt), RedEdge and Parrot Sequoia. This repository serves as a starting point to work with raw images from multispectral sensors.",
         "filters": {
             "content": [
                 "image processing",
                 "calibration",
                 "alignment"
             ],
-            "data-type": [
+            "data_type": [
                 "multispectral imagery"
             ],
             "subject": [
@@ -193,7 +191,9 @@
             ],
             "location": [
                 "Global"
-            ]
+            ],
+            "model_input": ["Multispectral imagery"],
+            "model_output": ["Calibrated images", "Aligned images"]
         }
     }
 ]
