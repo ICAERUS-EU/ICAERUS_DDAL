@@ -207,21 +207,24 @@
         "creator": "Louise Helary",
         "date": "06/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/e49eead8-32ee-46da-9b04-e10a8585c974",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/01_cow_detection_v1",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/cow_detection/cow_detection_v1",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
         "uses_cases": [
             "3"
         ],
-        "description": "Deep learning model for cow detection in livestock monitoring applications using computer vision techniques.",
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data_type": [
+            "data-type": [
                 "RGB images"
             ],
             "subject": [
@@ -229,9 +232,7 @@
             ],
             "location": [
                 "France"
-            ],
-            "model_input": ["RGB images"],
-            "model_output": ["Cow detection", "Object detection"]
+            ]
         }
     },
     {
@@ -239,21 +240,24 @@
         "creator": "Louise Helary",
         "date": "25/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/e49eead8-32ee-46da-9b04-e10a8585c974",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/01_cow_detection_v2",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/cow_detection/cow_detection_v2",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
         "uses_cases": [
             "3"
         ],
-        "description": "Enhanced version of the cow detection model with improved accuracy for livestock monitoring.",
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data_type": [
+            "data-type": [
                 "RGB images"
             ],
             "subject": [
@@ -261,31 +265,32 @@
             ],
             "location": [
                 "France"
-            ],
-            "model_input": ["RGB images"],
-            "model_output": ["Cow detection", "Object detection"]
+            ]
         }
     },
     {
-        "title": "Sheep detection model v1",
+        "title": "Sheep detection model using YOLOv8m v1",
         "creator": "Louise Helary",
         "date": "25/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/02_sheep_detection_v1",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/sheep_detection/yolo8m_sheep_v1",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
         "uses_cases": [
             "3"
         ],
-        "description": "Deep learning model for sheep detection in livestock monitoring applications.",
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data_type": [
+            "data-type": [
                 "RGB images"
             ],
             "subject": [
@@ -293,31 +298,32 @@
             ],
             "location": [
                 "France"
-            ],
-            "model_input": ["RGB images"],
-            "model_output": ["Sheep detection", "Object detection"]
+            ]
         }
     },
     {
-        "title": "Sheep detection model v2",
+        "title": "Sheep detection model using YOLOv8m v2",
         "creator": "Louise Helary",
         "date": "25/03/2024",
         "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/02_sheep_detection_v2",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/sheep_detection/yolo8m_sheep_v2",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
         "uses_cases": [
             "3"
         ],
-        "description": "Enhanced version of the sheep detection model with improved performance for livestock monitoring.",
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection"
             ],
-            "data_type": [
+            "data-type": [
                 "RGB images"
             ],
             "subject": [
@@ -325,33 +331,100 @@
             ],
             "location": [
                 "France"
-            ],
-            "model_input": ["RGB images"],
-            "model_output": ["Sheep detection", "Object detection"]
+            ]
         }
     },
     {
-        "title": "Sheep counter on a line",
+        "title": "Sheep detection model using YOLOv11n",
         "creator": "Louise Helary",
-        "date": "25/03/2024",
-        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/51c1bb78-1716-4bf3-bcc3-dce32a0c2810",
-        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/application/sheep_counting",
+        "date": "30/06/2025",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/sheep_detection/yolo11n_sheep",
         "icaerus_applications": [
             "livestock-monitoring"
         ],
         "uses_cases": [
             "3"
         ],
-        "description": "Sheep counting application that tracks and counts sheep crossing a designated line using computer vision.",
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Sheep"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    {
+        "title": "Sheep detection model using YOLOv11s",
+        "creator": "Louise Helary",
+        "date": "30/06/2025",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/sheep_detection/yolo11s_sheep",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Sheep"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    {
+        "title": "Sheep detection model application: counting sheep",
+        "creator": "Louise Helary",
+        "date": "25/03/2024",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/application/notebooks/",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
         "filters": {
             "content": [
                 "Deep learning",
                 "Computer vision",
                 "Detection",
-                "Tracking",
+                "Track",
                 "Counting"
             ],
-            "data_type": [
+            "data-type": [
                 "RGB images"
             ],
             "subject": [
@@ -359,11 +432,44 @@
             ],
             "location": [
                 "France"
-            ],
-            "model_input": ["RGB images"],
-            "model_output": ["Sheep count"]
+            ]
         }
     },
+    {
+        "title": "Counting sheep deployment",
+        "creator": "Madeline Le Pors",
+        "date": "18/09/2025",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/application/deployment/",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection",
+                "Track",
+                "Counting"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Sheep"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },    
     {
         "title": "Wild Boar Detection and Counting Models Using YOLOv5",
         "creator": "ART21",
@@ -596,4 +702,5 @@
             "model_output": []
         }
     }
+
 ]
