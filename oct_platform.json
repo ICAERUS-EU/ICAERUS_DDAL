@@ -6,7 +6,7 @@
       "icon":"https://raw.githubusercontent.com/ICAERUS-EU/AgroTwin/refs/heads/main/docs/images/Extracted_portion.png",
       "url":"https://github.com/ICAERUS-EU/AgroTwin",
       "icaerus_applications": ["crop-monitoring", "crop-spraying"],
-      "uses_cases":["OCT"],
+      "uses_cases":["1", "2"],
       "description": "A UAV-specific Python image processing library built upon scipy for a comprehensive analysis of vineyard point clouds to extract relevant features, and calculating descriptors such as canopy density, height, thickness, and optimal volume rate for spraying.",
       "filters":{
           "content": [
@@ -41,7 +41,7 @@
       "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
       "url": "https://github.com/ICAERUS-EU/Xylella-Fastidiosa-Classification",
       "icaerus_applications": ["crop-monitoring"],
-      "uses_cases":["OCT"],
+      "uses_cases":["1"],
       "description": "Training and validation of a classifier for Xylella Fastidiosa in olive trees.",
       "filters":{
           "content": [
@@ -71,7 +71,7 @@
       "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
       "url": "https://github.com/ICAERUS-EU/Full-Pipeline-Olive-Tree-Health-Status-Classification",
       "icaerus_applications": ["crop-monitoring"],
-      "uses_cases":["OCT"],
+      "uses_cases":["1"],
       "description": "An image processing workflow designed to classify olive trees by combining data from NDVI (Normalized Difference Vegetation Index) and RGB images.",
       "filters":{
           "content": [
@@ -101,7 +101,7 @@
       "icon":"https://taal.it/wp-content/uploads/2023/09/sensor-cropped.png",
       "url": "https://github.com/ICAERUS-EU/Olive-Tree-Detection",
       "icaerus_applications": ["crop-monitoring"],
-      "uses_cases":["OCT"],
+      "uses_cases":["1"],
       "description": "Training and validation of a detection model for olive trees using YOLO",
       "filters":{
           "content": [
@@ -189,5 +189,113 @@
           "model_input": ["RGB images", "Multispectral images"],
           "model_output": ["Disease severity", "Severity prediction"]
         }
-     }     
+     },  
+     {
+      "title": "Illegal Logging Detector (LiDAR Change Detection)",
+      "creator": "Institute for Security and Strategic Research",
+      "date": "27/10/2025",
+      "icon": "https://github.com/ICAERUS-EU/Illegal-logging/blob/main/Illegal_logging_icon.png",
+      "url": "https://github.com/ICAERUS-EU/Illegal-logging",
+      "icaerus_applications": [
+        "forestry-and-biodiversity",
+        "change-detection",
+        "uav-lidar"
+      ],
+      "uses_cases": [
+        "1",
+        "2"
+      ],
+      "extra": {
+        "contact": "david@onedrone.si",
+        "status": "prototype",
+        "notes": "Open-source LiDAR-based workflow to detect illegal tree removal by comparing two multi-temporal UAV LiDAR scans (before / after). Outputs volume estimates, and affected-area png. Implemented in R (lidR)."
+      },
+      "filters": {
+        "content": [
+          "LiDAR processing",
+          "Point cloud analysis",
+          "Change detection",
+          "Tree detection",
+          "Biomass/volume estimation",
+          "Open-source",
+          "R (lidR)"
+        ],
+        "data-type": [
+          "UAV-LiDAR",
+          "Point cloud (.laz/.las/.ply)",
+          "DSM/DTM",
+          "Orthophoto (RGB)",
+          "Multispectral (optional)"
+        ],
+        "subject": [
+          "Illegal logging",
+          "Forest change",
+          "Forest inventory",
+          "Deforestation monitoring"
+        ],
+        "location": [
+          "Slovenia"
+        ],
+        "model_input": [
+          "Multi-temporal LiDAR point clouds"
+        ],
+        "model_output": [
+          "Estimated removed timber volume (m3)",
+          "Change png image",
+    	  "CHM"
+        ]
+      }
+     },
+     {
+        "title": "Illegal Waste Dumping Detector",
+        "creator": "Institute for Security and Strategic Research",
+        "date": "27/10/2025",
+        "icon": "https://github.com/ICAERUS-EU/Illegal-waste-dumping/blob/main/Illegal_waste_dumping_icon.png",
+        "url": "https://github.com/ICAERUS-EU/Illegal-waste-dumping",
+        "icaerus_applications": [
+          "forestry-and-biodiversity",
+          "rural-logistics",
+          "crop-monitoring"
+        ],
+        "uses_cases": ["1", "3", "4"],
+        "extra": {
+          "contact": "david@onedrone.si",
+          "status": "prototype",
+          "notes": "Integrates orthomosaic and multispectral imagery (optional LiDAR) for automated detection of illegal waste sites."
+        },
+        "filters": {
+          "content": [
+            "Machine learning",
+            "Deep learning",
+            "Computer vision",
+            "Detection",
+            "Change detection",
+            "Anomaly detection",
+            "Segmentation",
+            "Orthomosaic processing",
+            "GIS"
+          ],
+          "data-type": [
+            "RGB images",
+            "Multispectral images",
+            "Orthomosaic"
+          ],
+          "subject": [
+            "Illegal waste dumping",
+            "Land-cover change",
+            "Forestry"
+          ],
+          "location": [
+            "Slovenia"
+          ],
+          "model_input": [
+            "Orthomosaic",
+            "NDVI orthomosaic"
+          ],
+          "model_output": [
+            "Waste hotspot polygons",
+            "Object-level annotations (geojson)"
+          ]
+        }
+      }   
   ]
