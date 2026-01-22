@@ -1,0 +1,34 @@
+{
+    "title": "A short, descriptive name for the model or tool.",
+    "creator": "The name of the person or organization who created the model or tool.",
+    "date": "The date when the model or tool was created or published, in DD/MM/YYYY format.",
+    "icon": "A URL pointing to an icon or image representing the model or tool.",
+    "url": "A URL pointing to the repository, documentation, or main page of the model or tool.",
+    "icaerus_applications": [
+        "A list of ICAERUS applications this model or tool is relevant for, e.g., 'crop-monitoring'."
+    ],
+    "uses_cases": [
+        "A list of use case identifiers (e.g., numbers or codes) that this model or tool applies to."
+    ],
+    "description": "A brief description of the model or tool, its purpose, and its functionality.",
+    "filters": {
+        "content": [
+            "A list of keywords describing the technical or methodological content, e.g., 'Deep learning', 'Computer vision'."
+        ],
+        "data_type": [
+            "A list of data types the model or tool uses as input, e.g., 'RGB images'."
+        ],
+        "subject": [
+            "A list of subjects or domains the model or tool is designed for, e.g., 'Vineyards'."
+        ],
+        "location": [
+            "A list of locations or regions where the model or tool is applicable or was developed, e.g., 'Spain'."
+        ],
+        "model_input": [
+            "A list of input types the model requires, e.g., 'RGB images'."
+        ],
+        "model_output": [
+            "A list of output types the model produces, e.g., 'Disease detection', 'Object detection'."
+        ]
+    }
+}
