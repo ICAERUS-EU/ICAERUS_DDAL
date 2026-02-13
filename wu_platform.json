@@ -195,5 +195,92 @@
             "model_input": ["Multispectral imagery"],
             "model_output": ["Calibrated images", "Aligned images"]
         }
+    },
+    {
+    "title": "PASIPHAE (v2) — Pretrained Aerial Self-supervised Integration for Paired and Hybrid data AutoEncoder",
+    "creator": "Jurrian Doornbos",
+    "date": "01/11/2025",
+    "icon": "https://raw.githubusercontent.com/jurriandoornbos/pasi_v2/refs/heads/main/saved_images/icon_pasi_v2.png",
+    "url": "https://github.com/jurriandoornbos/pasi_v2",
+    "icaerus_applications": [
+        "crop-monitoring",
+        "precision-agriculture",
+        "biodiversity-monitoring"
+    ],
+    "uses_cases": [],
+    "description": "Cross-modal encoder for UAV RGB and multispectral imagery trained with self-supervised masked image modeling (MIM) and cross-modal translation. Produces modality-agnostic feature embeddings and supports downstream tasks such as segmentation, detection and regression.",
+    "filters": {
+        "content": [
+            "Self-supervised learning",
+            "Masked Image Modeling (MIM)",
+            "Cross-modal translation",
+            "ConvNeXt backbone",
+            "VQ-GAN decoder",
+            "Task heads"
+        ],
+        "data_type": [
+            "RGB images",
+            "Multispectral images"
+        ],
+        "subject": [
+            "Remote sensing",
+            "Vegetation / crops"
+        ],
+        "location": [
+            "Global"
+        ],
+        "model_input": [
+            "RGB images",
+            "Multispectral images"
+        ],
+        "model_output": [
+            "Feature embeddings",
+            "Semantic segmentation",
+            "Bounding boxes (object detection)",
+            "Regression maps"
+        ]
     }
+    },
+    {
+    "title": "MultiSSL - Self/Semi-Supervised Learning for Multispectral UAV Imagery",
+    "creator": "ICAERUS / Jurrian Doornbos (jurriandoornbos)",
+    "date": "13/02/2026",
+    "icon": "https://raw.githubusercontent.com/jurriandoornbos/multi_ssl/refs/heads/main/saved_images/icon_pasi.png",
+    "url": "https://github.com/jurriandoornbos/multi_ssl",
+    "icaerus_applications": [
+    ],
+    "uses_cases": [
+    ],
+    "description": "MultiSSL is a library for self-supervised and semi-supervised representation learning on multispectral and RGB UAV imagery. It provides pretrained backbones, data loaders and utilities to train FastSiam-like methods, build segmentation models and reconstruct orthomosaic predictions from tiled inferences.",
+    "filters": {
+        "content": [
+            "Self-supervised learning",
+            "Semi-supervised learning"
+        ],
+        "data_type": [
+            "RGB images",
+            "Multispectral images (Red, Green, RedEdge, NIR)",
+            "Orthomosaics (GeoTIFF)",
+            "Image chips / tiles"
+        ],
+        "subject": [
+            "Precision agriculture",
+            "Crop monitoring",
+            "Vegetation analysis",
+            "Remote sensing"
+        ],
+        "location": [
+            "Global"
+        ],
+        "model_input": [
+            "Multispectral images"
+        ],
+        "model_output": [
+            "Feature maps",
+            "Reconstructed orthomosaic predictions"
+        ]
+    }
+}
+    
+
 ]
