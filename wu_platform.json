@@ -17,23 +17,27 @@
         "filters": {
             "content": [
                 "ROS",
-                "Deep Learning"
+                "Deep learning"
             ],
             "data_type": [
-                "RGB Images"
+                "RGB images"
             ],
             "subject": [],
             "location": [
                 "Global"
             ],
-            "model_input": ["RGB Images"],
-            "model_output": ["NDVI images"]
+            "model_input": [
+                "RGB images"
+            ],
+            "model_output": [
+                "NDVI images"
+            ]
         }
     },
     {
         "title": "Botrytis bunch rot mapping Canyelles",
         "creator": "Jurrian Doornbos",
-        "date": "26/1/2024",
+        "date": "26/01/2024",
         "icon": "https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
         "url": "https://github.com/jurriandoornbos/BBR_canyelles",
         "icaerus_applications": [
@@ -56,16 +60,22 @@
                 "Vineyards"
             ],
             "location": [
-                "Global"
+                "Spain"
             ],
-            "model_input": ["Multispectral images", "Orthomosaic"],
-            "model_output": ["Disease map", "Disease detection"]
+            "model_input": [
+                "Multispectral images",
+                "Orthomosaic"
+            ],
+            "model_output": [
+                "Disease map",
+                "Disease detection"
+            ]
         }
     },
     {
         "title": "RGBtoNDVIconversion",
         "creator": "Jurrian Doornbos",
-        "date": "17/3/2024",
+        "date": "17/03/2024",
         "icon": "https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
         "url": "https://github.com/jurriandoornbos/RGBtoNDVIconversion",
         "icaerus_applications": [
@@ -94,14 +104,19 @@
             "location": [
                 "Global"
             ],
-            "model_input": ["RGB images"],
-            "model_output": ["NDVI", "Spectral Index"]
+            "model_input": [
+                "RGB images"
+            ],
+            "model_output": [
+                "NDVI",
+                "Spectral Index"
+            ]
         }
     },
     {
         "title": "cowtization",
         "creator": "Jurrian Doornbos, Douwe Spaanderman",
-        "date": "2/4/2024",
+        "date": "02/04/2024",
         "icon": "https://github.com/jurriandoornbos/post_cowtization/blob/main/imgs/cowtization.png?raw=true",
         "url": "https://github.com/jurriandoornbos/post_cowtization",
         "icaerus_applications": [
@@ -127,8 +142,13 @@
             "location": [
                 "France"
             ],
-            "model_input": ["RGB images"],
-            "model_output": ["Cow detection", "Object detection"]
+            "model_input": [
+                "RGB images"
+            ],
+            "model_output": [
+                "Cow detection",
+                "Object detection"
+            ]
         }
     },
     {
@@ -146,29 +166,32 @@
         "description": "Evaluating Pretraining effects of MEGAWEEDS vs standard COCO in Precision Agricultural activities.",
         "filters": {
             "content": [
-                "Deep Learning"
+                "Deep learning"
             ],
             "data_type": [
-                "RGB Images"
+                "RGB images"
             ],
             "subject": [],
             "location": [
                 "Global"
             ],
-            "model_input": ["RGB Images"],
-            "model_output": ["Weed detection", "Detection"]
+            "model_input": [
+                "RGB images"
+            ],
+            "model_output": [
+                "Weed detection",
+                "Detection"
+            ]
         }
     },
     {
         "title": "Multispectral UAV Image calibration and alignment",
         "creator": "Jurrian Doornbos",
-        "date": "2025-03-06",
+        "date": "06/03/2025",
         "icon": "https://github.com/jurriandoornbos/msdata/blob/main/msdata.png",
         "url": "https://github.com/jurriandoornbos/msdata",
         "icaerus_applications": [
-            "image alignment",
-            "radiometric calibration",
-            "multispectral preprocessing"
+            "precision-agriculture"
         ],
         "uses_cases": [
             "1",
@@ -184,7 +207,7 @@
                 "alignment"
             ],
             "data_type": [
-                "multispectral imagery"
+                "Multispectral images"
             ],
             "subject": [
                 "multispectral imagery"
@@ -192,95 +215,95 @@
             "location": [
                 "Global"
             ],
-            "model_input": ["Multispectral imagery"],
-            "model_output": ["Calibrated images", "Aligned images"]
+            "model_input": [
+                "Multispectral images"
+            ],
+            "model_output": [
+                "Calibrated images",
+                "Aligned images"
+            ]
         }
     },
     {
-    "title": "PASIPHAE (v2) — Pretrained Aerial Self-supervised Integration for Paired and Hybrid data AutoEncoder",
-    "creator": "Jurrian Doornbos",
-    "date": "01/11/2025",
-    "icon": "https://raw.githubusercontent.com/jurriandoornbos/pasi_v2/refs/heads/main/saved_images/icon_pasi_v2.png",
-    "url": "https://github.com/jurriandoornbos/pasi_v2",
-    "icaerus_applications": [
-        "crop-monitoring",
-        "precision-agriculture",
-        "biodiversity-monitoring"
-    ],
-    "uses_cases": [],
-    "description": "Cross-modal encoder for UAV RGB and multispectral imagery trained with self-supervised masked image modeling (MIM) and cross-modal translation. Produces modality-agnostic feature embeddings and supports downstream tasks such as segmentation, detection and regression.",
-    "filters": {
-        "content": [
-            "Self-supervised learning",
-            "Masked Image Modeling (MIM)",
-            "Cross-modal translation",
-            "ConvNeXt backbone",
-            "VQ-GAN decoder",
-            "Task heads"
+        "title": "PASIPHAE (v2) — Pretrained Aerial Self-supervised Integration for Paired and Hybrid data AutoEncoder",
+        "creator": "Jurrian Doornbos",
+        "date": "01/11/2025",
+        "icon": "https://raw.githubusercontent.com/jurriandoornbos/pasi_v2/refs/heads/main/saved_images/icon_pasi_v2.png",
+        "url": "https://github.com/jurriandoornbos/pasi_v2",
+        "icaerus_applications": [
+            "crop-monitoring",
+            "precision-agriculture",
+            "biodiversity monitoring"
         ],
-        "data_type": [
-            "RGB images",
-            "Multispectral images"
-        ],
-        "subject": [
-            "Remote sensing",
-            "Vegetation / crops"
-        ],
-        "location": [
-            "Global"
-        ],
-        "model_input": [
-            "RGB images",
-            "Multispectral images"
-        ],
-        "model_output": [
-            "Feature embeddings",
-            "Semantic segmentation",
-            "Bounding boxes (object detection)",
-            "Regression maps"
-        ]
-    }
+        "uses_cases": [],
+        "description": "Cross-modal encoder for UAV RGB and multispectral imagery trained with self-supervised masked image modeling (MIM) and cross-modal translation. Produces modality-agnostic feature embeddings and supports downstream tasks such as segmentation, detection and regression.",
+        "filters": {
+            "content": [
+                "Self-supervised learning",
+                "Masked Image Modeling (MIM)",
+                "Cross-modal translation",
+                "ConvNeXt backbone",
+                "VQ-GAN decoder",
+                "Task heads"
+            ],
+            "data_type": [
+                "RGB images",
+                "Multispectral images"
+            ],
+            "subject": [
+                "Remote sensing",
+                "Vegetation / crops"
+            ],
+            "location": [
+                "Global"
+            ],
+            "model_input": [
+                "RGB images",
+                "Multispectral images"
+            ],
+            "model_output": [
+                "Feature embeddings",
+                "Semantic segmentation",
+                "Bounding boxes (object detection)",
+                "Regression maps"
+            ]
+        }
     },
     {
-    "title": "MultiSSL - Self/Semi-Supervised Learning for Multispectral UAV Imagery",
-    "creator": "ICAERUS / Jurrian Doornbos (jurriandoornbos)",
-    "date": "13/02/2026",
-    "icon": "https://raw.githubusercontent.com/jurriandoornbos/multi_ssl/refs/heads/main/saved_images/icon_pasi.png",
-    "url": "https://github.com/jurriandoornbos/multi_ssl",
-    "icaerus_applications": [
-    ],
-    "uses_cases": [
-    ],
-    "description": "MultiSSL is a library for self-supervised and semi-supervised representation learning on multispectral and RGB UAV imagery. It provides pretrained backbones, data loaders and utilities to train FastSiam-like methods, build segmentation models and reconstruct orthomosaic predictions from tiled inferences.",
-    "filters": {
-        "content": [
-            "Self-supervised learning",
-            "Semi-supervised learning"
-        ],
-        "data_type": [
-            "RGB images",
-            "Multispectral images (Red, Green, RedEdge, NIR)",
-            "Orthomosaics (GeoTIFF)",
-            "Image chips / tiles"
-        ],
-        "subject": [
-            "Precision agriculture",
-            "Crop monitoring",
-            "Vegetation analysis",
-            "Remote sensing"
-        ],
-        "location": [
-            "Global"
-        ],
-        "model_input": [
-            "Multispectral images"
-        ],
-        "model_output": [
-            "Feature maps",
-            "Reconstructed orthomosaic predictions"
-        ]
+        "title": "MultiSSL - Self/Semi-Supervised Learning for Multispectral UAV Imagery",
+        "creator": "ICAERUS / Jurrian Doornbos (jurriandoornbos)",
+        "date": "13/02/2026",
+        "icon": "https://raw.githubusercontent.com/jurriandoornbos/multi_ssl/refs/heads/main/saved_images/icon_pasi.png",
+        "url": "https://github.com/jurriandoornbos/multi_ssl",
+        "icaerus_applications": [],
+        "uses_cases": [],
+        "description": "MultiSSL is a library for self-supervised and semi-supervised representation learning on multispectral and RGB UAV imagery. It provides pretrained backbones, data loaders and utilities to train FastSiam-like methods, build segmentation models and reconstruct orthomosaic predictions from tiled inferences.",
+        "filters": {
+            "content": [
+                "Self-supervised learning",
+                "Semi-supervised learning"
+            ],
+            "data_type": [
+                "RGB images",
+                "Multispectral images",
+                "Orthomosaic"
+            ],
+            "subject": [
+                "Precision agriculture",
+                "Crop monitoring",
+                "Vegetation analysis",
+                "Remote sensing"
+            ],
+            "location": [
+                "Global"
+            ],
+            "model_input": [
+                "Multispectral images"
+            ],
+            "model_output": [
+                "Feature maps",
+                "Reconstructed orthomosaic predictions"
+            ]
+        }
     }
-}
-    
-
 ]
